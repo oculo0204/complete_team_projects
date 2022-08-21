@@ -1,0 +1,290 @@
+@font-face{
+    src: url("../billabong.otf");
+    src: local('billabong'),
+    url('billabong.otf') format('truetype');
+    font-family:'billabong';
+}
+.emailpadding{
+    width: 0;
+    height: 36px;
+    padding-right: 8px;
+}
+.login
+ {
+    width: 268px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(173, 218, 245);
+    color: white;
+}
+.believer{
+    color: #385185
+}
+.inputs{
+    width: 250px;
+    height: 20px;
+    padding: 14px 0px 2px 8px;
+    border: none;
+
+    background-color: rgb(232, 240, 254);
+}
+input:focus {
+    outline: none;
+}
+.else{
+    width:268px;
+    height:15px;
+
+    display: flex;
+    align-items: center;
+}
+.elseword{
+    width: 26px;
+    height: 15px;
+    margin: 0px 18px;
+    font-size: 13px;
+}
+.Borderline{  
+    width: 103px;
+    height: 1px;
+    top: 0.45px;
+    position: relative;
+
+    background-color: rgba(219,219,219);
+}
+.FacebookButton{
+    width: 268px;
+    height: 20px;
+    padding: 0 !important;
+    border: 0;
+    outline: 0;
+
+    background-color: white;
+}
+.verti{
+    text-align: center;
+    vertical-align: baseline;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #385385;
+
+}
+.forget
+{
+    width:16px;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+.LogoFont{
+    display: flex;
+    justify-content: center;
+    
+    width: 175px;
+    height: 51px;
+    margin: 22px 86.5px 12px;
+    font-size:40.5px;
+
+	font-family:'billabong'; 
+
+}
+
+
+.container{
+    position: relative;
+
+    height: 1019px;
+    width: 935px;
+    margin: 32px auto 0;
+    padding-bottom: 32px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainimg{
+    position: relative;
+    float: left;
+
+    height: 618px;
+    width: 454px;
+    margin-left: -35px;
+    margin-right:-15px;
+}
+
+.container2{
+    position: relative;
+    float: left;
+    
+    height: 1007px;
+    width: 350px;
+    margin-top: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.mainbox{
+    position: relative;
+    left: 0px;
+
+    width: 348px;
+    height: 360px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgba(219,219,219);
+    
+
+}
+
+.WhatsGrid{
+    width: 268px;
+    height: 38px;
+    margin: 0px 40px 6px;}
+
+.WhatsGrid2{
+    width: 268px;
+    height: 38px;
+    margin: 8px 40px;
+    margin-top: 12px;
+ 
+}
+.WhatsGrid3{
+    width: 268px;
+    height: 32px;
+    margin: 6px 40px 6px;
+
+    vertical-align: middle;
+ 
+}
+.WhatsGrid4{
+    width: 268px;
+    height: 32px;
+    margin: 0px 40px 6px;
+ 
+}
+.pad{
+    display: flex;
+
+    border: none;
+    border: 1px solid rgba(219,219,219);
+    border-radius: 3px;
+}
+.lonely{
+    position: absolute;
+    left: 48px;
+    width: 250px;
+    height: 20px;
+    text-align: left;
+    vertical-align: baseline;
+    font-size: 4px;
+    color: rgb(150, 150, 150);
+}
+.waccount{
+    border-width: 1px;
+
+    align-items: center;
+
+    background-color: white;
+    border: solid rgba(219,219,219);
+
+}
+
+.daccount{
+    position: relative;
+    
+
+    height: 46px;
+    width: 348px;
+    padding: 8.5px 0px;
+    margin-bottom: 10px;
+
+    align-items: center;
+
+    background-color: white;
+
+    
+    border: solid rgba(219,219,219);
+    border-width: 1px;
+    
+
+}
+
+
+
+.paccount{
+    position: absolute;
+    left: 20%;
+
+    height: 18px;
+    width: 181.953px;
+
+    text-align: left;
+
+    color: rgba(38,38,38);
+    font-size: 14px;
+    margin: 15px;
+
+
+}
+
+.entrance{
+    display: inline!important;
+    position: absolute;
+
+    color: rgb(21, 161, 255);
+    font-size: 14px;
+    font-weight: 900;
+
+
+
+}
+.downloadP{
+    text-align: center;
+}
+.downloadA{
+    margin-right: 8px;
+}
+
+.DownloadAlign{
+    display: flex;
+    justify-content: center;
+}
+.facebookicon{
+    position: relative;
+    top: 3px;
+
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+.download{
+    height: 40px;
+    width: 136px;
+}
+.download_google{
+    height: 40px;
+    width: 134.281;
+
+}
+
+@media (max-width: 1100px) {
+    .container2{
+        display: none;
+    }
+
+}
