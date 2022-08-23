@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexy tale - 동화가 이어질 수 있게 도와주세요!</title>
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans|Fredoka+One|Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script defer src="../js/code.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    
+    <div class="wrap">
+        <div class="header">
+            <br>
+            <h1 class="title">Flexy tale &nbsp;</h1> 
+            <br>
+                <p class="note"> 
+                    독사과를 먹고 쓰러진 백설 공주를 발견한 난쟁이들은 구슬프게 울었습니다.<br>
+                    그 소리를 듣고 근처를 지나가던 이웃 나라 왕자가 난쟁이들에게 이유를 물었습니다. <br>
+                     난쟁이들은 나쁜 마녀에 의해 백설공주가 쓰러지게 되었다며 왕자님의 키스만이 이 저주를 풀 수 있다고 했습니다.<br>
+                     <br>
+                    왕자님은 망설임없이 백설공주에게 입을 맞추었고 백설공주는 깊은 잠에서 깨어나 왕자님을 보고 사랑에 빠졌습니다.<br>
+                    둘은 영원토록 행복하게 살았답니다.<br>
+                    <br>
+                    <input type="button" id="btn3" class="flex-direction" value="flex-direction" onclick="showPopup3();" />
+                    <script language="javascript">
+                    function showPopup3() { window.open("popup03.html", "a", "width=400, height=300, left=100, top=50"); }
+                    </script>과 
+                    <input type="button" id="btn2" class="align-items" value="align-items" onclick="showPopup2();" />
+                    <script language="javascript">
+                    function showPopup2() { window.open("popup02.html", "a", "width=400, height=300, left=100, top=50"); }
+                    </script> 속성을 이용하여 왕자님이 백설공주에게 키스할 수 있도록 퍼즐을 완성해주세요.<br>
+                </p>
+            <br>         
+        </div>
+        
+        <div id="view">
+            <div id="board">
+                <div id="pond" class="pond">
+                    <div class="g">
+                        <img id="puzzle7" class="puzzle7" src="../img/sixthlevel/sixthlevel-puzzle-31.png" style="width: 220px; height: 255px;">
+                        <img id="puzzle8" class="puzzle8" src="../img/sixthlevel/sixthlevel-puzzle-32.png" style="width: 257px; height: 208px;">
+                        <img id="puzzle9" class="puzzle9" src="../img/sixthlevel/sixthlevel-puzzle-33.png" style="width: 260px; height: 210px;">
+                    </div>
+                    
+                    <div class="m">
+                        <img id="puzzle4" class="puzzle4" src="../img/sixthlevel/sixthlevel-puzzle-21.png" style="width: 270px; height: 270px;">
+                        <img id="puzzle5" class="puzzle5" src="../img/sixthlevel/sixthlevel-puzzle-22.png" style="width: 270px; height: 315px;">
+                        <img id="puzzle6" class="puzzle6" src="../img/sixthlevel/sixthlevel-puzzle-23.png" style="width: 212px; height: 307px;">
+                    </div>
+                    
+                    <div class="s">
+                        <img id="puzzle1" class="puzzle1" src="../img/sixthlevel/sixthlevel-puzzle-11.png" style="width: 220px; height: 215px;">
+                        <img id="puzzle2" class="puzzle2" src="../img/sixthlevel/sixthlevel-puzzle-12.png" style="width: 260px; height: 215px;">
+                        <img id="puzzle3" class="puzzle3" src="../img/sixthlevel/sixthlevel-puzzle-13.png" style="width: 260px; height: 215px;">
+                    </div>
+                    
+                    <div class="fifthbg"></div>
+                </div>
+                <div id="background"></div>
+            </div>
+        </div>
+
+        <div id="help">
+            <div id="">
+
+            </div>
+        </div>
+        <div id="editor">
+            <div id="css">
+                <div class="line-numbers">1<br>2<br>3<br>4<br>5<div id="add-numbers"></div></div>
+                <pre id="before"></pre>
+                <p class="back_code">#background {
+  display: flex;</p>
+                <textarea id="code" class="code-class" autofocus autocapitalize="none"></textarea>
+                <p class="back_code"></p>}</p>
+                <pre id="after"></pre>
+                <div id="six-link">
+                    <button id="next" class="translate">Next</button>
+                </div>
+            </div>
+            <div class="bsa-custom"></div>
+        </div>
+        <div id="button">
+            <div id="just-btn" class="button-color">
+                <p class="btn-exp">&nbsp;&nbsp;&nbsp;&nbsp;justify-content</p>
+                <button id="center" class="btn cent">center</button>
+                <button id="flex-end" class="btn flend">flex-end</button>
+                <button id="flex-start" class="btn flestart">flex-start</button>
+                <p id="alert" style="position: absolute;bottom:15px;margin-left:7px;">클릭후 아무키나 눌러주세요</p>
+            </div>
+            <div id="just-btn2" class="button-color"> 
+                <p class="btn-exp"> &nbsp;&nbsp;&nbsp;&nbsp;justify-content </p> 
+                <button id="space-between" class="btn cent">space-between    </button> 
+                <button id="space-around" class="btn flend ">space-around      </button> 
+                <button id="space-evenly" class="btn flestart">space-evenly      </button>
+                <p id="alert" style="position: absolute;bottom:15px;margin-left:7px;">클릭후 아무키나 눌러주세요</p> 
+            </div>
+            <div id="flexD-btn" class="button-color">
+                <p class="btn-exp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flex-direction</p>
+                <button id="row" class="btn cent">row</button>
+                <button id="row-reverse" class="btn flend ">row-reverse</button>
+                <button id="column" class="btn flestart">column</button>
+                <p id="alert" style="position: absolute;bottom:15px;margin-left:7px;">클릭후 아무키나 눌러주세요</p>
+            </div>
+            <div id="flexD-btn2" class="button-color"><p class="btn-exp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flex-direction</p>\
+                <button id="column-reverse" class="btn cent">column-reverse</button>
+                <p id="alert" style="position: absolute;bottom:15px;margin-left:7px;">클릭후 아무키나 눌러주세요</p>
+            </div>
+            <div id="align-btn" class="button-color"><p class="btn-exp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;align-items</p>\
+                <button id="center2" class="btn cent">center</button>
+                <button id="flex-end2" class="btn flend ">flex-end</button>
+                <button id="flex-start2" class="btn flestart">flex-start</button>
+                <p id="alert" style="position: absolute;bottom:15px;margin-left:7px;">클릭후 아무키나 눌러주세요</p>
+            </div>
+            <div id="next-button" style="display:flex; flex-direction: column; justify-content: space-evenly;">
+                <button id="1B" class="BB">1</button>
+                <button id="2B" class="BB">2</button>
+                <button id="3B" class="BB">3</button>
+                <button id="4B" class="BB">4</button>
+                <button id="5B" class="BB">5</button>
+            </div>
+        </div>
+    </div> <!--wrap 끝나는 div -->
+    <div class="level-nav">
+        <a class="previous" href="fifthlevel.html"></a>
+        <a class="next" href="#"></a>
+    </div>
+    <!--flexytale설명 팝업-->
+    <div id="cong" class="pops" href="javascript:popup()" target="_blank">
+        <div class="pop_inner" style="display:flex; flex-direction: column;justify-content: center;">
+            <h1>congratulations~</h1>
+            <h5>flexy tale을 무사히 마치셨습니다.</h5>
+        </div>
+    </div>
+    <!--배경-->
+    <div class="black_bg"></div>
+    <div class="background"><img src="../img/bg_1.png" alt=""></div>
+    <script src="../js/code.js"></script>
+</body>
+</html>
+
+
