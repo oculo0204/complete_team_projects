@@ -1,0 +1,129 @@
+input{
+    border: none;
+    width: 280px;
+    height: 30px;
+}
+
+button{
+    border: none;
+    background-color: inherit;
+}
+
+body{
+    text-align: center;
+}
+
+.loginBT{
+    margin: 10px auto 10px;
+    border: none;
+    border-radius: 5px;
+    width: 289px;
+    height: 30px;
+    color: white;
+    background-color: rgb(0, 149, 246);
+}
+
+.appName{
+    margin: 22px auto 22px;
+}
+
+.textBox{
+    display: inline-block;
+    margin: 0px 20px 10px;
+    border: solid 1px rgb(219, 219, 219);
+}
+
+.contents{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.homePhone{
+    float: left;
+    align-self: center;
+    background-image: url(./static/home-phones.png);
+    background-position: 0 0;
+    background-size: 454px 618px;
+    height: 618px;
+    width: 453px;
+}
+
+.loginBox{
+    margin: 30px 0;
+    float: left;
+    text-align: center;
+    width: 350px;
+}
+
+.login{
+    border: solid 1px rgb(219, 219, 219);
+}
+
+.or{
+    color: #8e8e8e;
+    display: inline;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    color: rgb(142, 142, 142);
+    margin: 8px 0px;
+    font-size: 13px;
+}
+.divider::before{
+    content: "";
+    flex-grow: 1;
+    margin: 0px 30px;
+    background-color: rgb(219, 219, 219);
+    height: 1px;
+
+}
+.divider::after{
+
+    content: "";
+    flex-grow: 1;
+    margin: 0px 30px;
+    background-color: rgb(219, 219, 219);
+    height: 1px;
+
+}
+
+.facebookLogin{
+    margin-top: 15px
+}
+.face{
+    color: rgb(56, 81, 133);
+    display: flex;
+    float: right;
+    margin-left: 10px;
+}
+
+.findPasswd{
+    display: block;
+    color: rgb(56, 81, 133);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.createAccountBox{
+    border: solid 1px rgb(219, 219, 219);
+    margin-top: 10px;
+}
+
+.createAccount{
+    font-size: 14px;
+    margin: 20px auto 20px;
+}
+
+.register{
+    color: rgb(0, 149, 248);
+    font-weight: 600;
+}
+
+.downloadApp{
+    font-size: 14px;
+    margin: 25px auto 25px;
+}
